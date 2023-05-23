@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: Demo Site</title>
+    <link rel="prev" href="git.html">
+    <link rel="next" href="gitlab.html">
+    <meta name="generator" content="Antora 3.1.3">
+    <link rel="stylesheet" href="../../_/css/site.css">
+    <script>var uiRootPath = '../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../..">Demo Site</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="test" data-version="0.1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="index.html">demo</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="git.html">git.adoc</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="microservice.html">microservice.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="gitlab.html">gitlab.adoc</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">demo</span>
+    <span class="version">0.1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="index.html">demo</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">demo</a></li>
+    <li><a href="microservice.html">microservice.adoc</a></li>
+  </ul>
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="paragraph">
+<p><em>MICROSERVICES</em><br></p>
+</div>
+<div class="paragraph">
+<p>&#8594; Microservices will break the applications into distinct services, which can be developed and deployed independently.<br>
+&#8594; For this microservices the communication between the services will done through API gateway. With this we can develop easily, update seamless and manage each service without application failure.<br>
+&#8594; Microservices architectures make applications easier to scale and faster to develop, enabling innovation and accelerating time-to-market for new features.<br></p>
+</div>
+<div class="paragraph">
+<p>We need cloud platform, for building or deploying the microservices application.
+Eg: Containerization(Dockers)
+Hospital management application has divided into 4 services</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Patient registration</p>
+</li>
+<li>
+<p>Clinical patient</p>
+</li>
+<li>
+<p>Bed management</p>
+</li>
+<li>
+<p>Claim management<br></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><em>Monolythic Vs Microservices:</em><br></p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://hazelcast.com/wp-content/uploads/2021/12/diagram-MonolithicArchitecture.png" alt="diagram MonolithicArchitecture"></span></p>
+</div>
+<div class="paragraph">
+<p>&#8594; With monolithic architectures, all processes are tightly coupled and run as a single service.<br>
+&#8594; Monolithic architectures add risk for application availability because many dependent and tightly coupled processes increase the impact of a single process failure.<br>
+&#8594; With a microservices architecture, an application is built as independent components that run each application process as a service.<br>
+&#8594; Because they are independently run, each service can be updated, deployed, and scaled to meet demand for specific functions of an application.<br></p>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="git.html">git.adoc</a></span>
+  <span class="next"><a href="gitlab.html">gitlab.adoc</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
