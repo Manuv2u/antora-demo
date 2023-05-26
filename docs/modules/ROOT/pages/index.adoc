@@ -1,18 +1,28 @@
-=  doc content
-:toc:
+= My Documentation
 
-:toc-title: contents
+== Table of Contents
 
-:toclevels: 5
+* <<git, Git>>
+* <<microservice, Microservice>>
+* <<gitlab, GitLab>>
+* <<docker, Introduction to Docker>>
+* <<gitlab-runner, Introduction to GitLab Runner>>
+* <<vpc, VPC>>
 
-:sectnums:
-====for git  links
-* xref:git.adoc[]
-* xref:gitlab.adoc[]
-* xref:Introduction_to_Gitlab_runner.adoc[]
-* xref:Git merge conflicts.adoc[]
-====for micro services
-* xref:microservice.adoc[]
-====Docker 
-* xref:Intoduction_to_docker.adoc[]
+== Git
+xref:git.adoc[]
 
+== Microservice
+xref:microservice.adoc[]
+
+== GitLab
+xref:gitlab.adoc[]
+
+== Introduction to Docker
+xref:Intoduction_to_docker.adoc[]
+
+== Introduction to GitLab Runner
+xref:Introduction_to_Gitlab_runner.adoc[]
+
+== VPC
+xref:vpc.adoc[]
