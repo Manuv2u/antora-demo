@@ -7,7 +7,6 @@
 * <<gitlab, GitLab>>
 * <<docker, Introduction to Docker>>
 * <<gitlab-runner, Introduction to GitLab Runner>>
-* <<vpc, VPC>>
 
 == Git
 xref:git.adoc[]
@@ -23,6 +22,3 @@ xref:Intoduction_to_docker.adoc[]
 
 == Introduction to GitLab Runner
 xref:Introduction_to_Gitlab_runner.adoc[]
-
-== VPC
-xref:vpc.adoc[]
