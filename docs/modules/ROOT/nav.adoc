@@ -4,4 +4,4 @@
 * xref:gitlab.adoc[gitlab]
 * xref:Intoduction_to_docker.adoc[Intoduction_to_docker]
 * xref:Introduction_to_Gitlab_runner.adoc[Introduction_to_Gitlab_runner]
-* xref:Git_merge_conflicts.adoc[Git_merge_conflicts]
+* xref:Merge_conflicts.adoc[Merge_conflicts]
