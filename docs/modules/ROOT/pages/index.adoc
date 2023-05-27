@@ -39,4 +39,4 @@ xref:Introduction_to_Gitlab_runner.adoc[]
 * xref:Keyclock_Public_subnet_H2_database.adoc[]
 
 == Introduction to Maven
-* xref:Maven.adoc[
+* xref:Maven.adoc[]
