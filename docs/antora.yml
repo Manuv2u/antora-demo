@@ -1,7 +1,7 @@
 name: Documentation-prod
 title: contents-prod
 version: 0.1
-#start_page: git.adoc
+start_page: index.adoc
 asciidoc:
   attributes:
     source-language: asciidoc@
