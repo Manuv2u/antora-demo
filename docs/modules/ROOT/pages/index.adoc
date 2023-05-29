@@ -1,34 +1,32 @@
 = My Documentation
 
 == Git
-xref:git.adoc[]
+xref:git.adoc[Git]
 
 == Microservice
-xref:microservice.adoc[]
+xref:microservice.adoc[Microservice]
 
 == GitLab
-xref:gitlab.adoc[]
+xref:gitlab.adoc[Gitlab]
 
 == Introduction to Docker
-xref:Intoduction_to_docker.adoc[]
+xref:Intoduction_to_docker.adoc[Intoduction to docker]
 
 == Introduction to GitLab Runner
-xref:Introduction_to_Gitlab_runner.adoc[]
+xref:Introduction_to_Gitlab_runner.adoc[Introduction to Gitlab runner]
 
 == Introduction to Deployment_of_Master_service
-* xref:Deployment_of_Master_service.adoc[]
+* xref:Deployment_of_Master_service.adoc[Deployment of Master service]
 
 == Introduction to gitlab_branching_stratergies
-* xref:gitlab_branching_stratergies.adoc[]
+* xref:gitlab_branching_stratergies.adoc[Gitlab branching stratergies]
 
-== Introduction to inline_text_formate
-* xref:inline_text_formate.adoc[]
 
 == Introduction to introduction_to_AWS
-* xref:introduction_to_AWS.adoc[]
+* xref:introduction_to_AWS.adoc[Introduction to AWS]
 
 == Introduction to Keyclock_Public
-* xref:Keyclock_Public_subnet_H2_database.adoc[]
+* xref:Keyclock_Public_subnet_H2_database.adoc[Keyclock Public subnet H2 database]
 
 == Introduction to Maven
-* xref:Maven.adoc[]
+* xref:Maven.adoc[Maven]
