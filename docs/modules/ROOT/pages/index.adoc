@@ -1,13 +1,5 @@
 = My Documentation
 
-== Table of Contents
-
-* <<git, Git>>
-* <<microservice, Microservice>>
-* <<gitlab, GitLab>>
-* <<docker, Introduction to Docker>>
-* <<gitlab-runner, Introduction to GitLab Runner>>
-
 == Git
 xref:git.adoc[]
 
