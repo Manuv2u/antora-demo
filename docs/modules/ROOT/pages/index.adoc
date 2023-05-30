@@ -2,6 +2,7 @@
 
 
 ifdef::env[dev]
+
 == Git
 xref:git.adoc[Git]
 
@@ -9,6 +10,7 @@ xref:git.adoc[Git]
 xref:microservice.adoc[Microservice]
 
 endif::[]
+
 ifdef::env[prod]
 == GitLab
 xref:gitlab.adoc[Gitlab]
