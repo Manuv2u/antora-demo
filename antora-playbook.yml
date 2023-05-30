@@ -1,14 +1,21 @@
 site:
-  title: Demo Site
+  title: KBT-Documentation
   # the 404 page and sitemap files only get generated when the url property is set
-  #url: https://antora.demo.com/demo/docs-site
-  #start_page: sample::index.adoc
+  # url: https://antora.demo.com/demo/docs-site
+  start_page: Documentation-prod::index.adoc
+
 content:
   sources:
     - url: https://github.com/Manuv2u/antora-demo.git
       branches: master
       start_path: docs
-      edit_url: false
+      attributes:
+        env: prod
+    - url: https://github.com/Manuv2u/antora-demo2.git
+      branches: main
+      start_path: docs
+      attributes:
+        env: dev
 
 asciidoc:
   attributes:
@@ -16,15 +23,12 @@ asciidoc:
     idprefix: custom-prefix
     idseparator: '-'
     page-pagination: simple
+
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+
 output: 
   clean: true 
   dir: ./public
- 
-
-
-
-
