@@ -1,7 +1,7 @@
 = My Documentation
 
 
-ifdef::env[dev]
+
 
 == Git
 xref:git.adoc[Git]
@@ -9,9 +9,8 @@ xref:git.adoc[Git]
 == Microservice
 xref:microservice.adoc[Microservice]
 
-endif::[]
 
-ifdef::env[prod]
+
 
 == GitLab
 xref:gitlab.adoc[Gitlab]
@@ -25,7 +24,7 @@ xref:Introduction_to_Gitlab_runner.adoc[Introduction to Gitlab runner]
 == Introduction to Merge_conflicts.adoc
 xref:Merge_conflicts.adoc[Merge_conflicts]
 
-endif::[]
+
 
 // == Introduction to Deployment_of_Master_service
 // * xref:Deployment_of_Master_service.adoc[Deployment of Master service]
